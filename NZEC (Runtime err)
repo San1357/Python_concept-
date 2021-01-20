@@ -1,0 +1,19 @@
+Learned from #(geeksforgeeks by Akash TIwari Article)
+
+NZEC stand for:- NON ZERO EXIT CODE 
+
+This err generally encountered/occure in competitive coding .
+This err occur because of when your code failed to return 0.
+When your code return 0 that means your code is succesfully executed.
+Otherwise it causes NZEC
+
+REASONS OF NZEC ERR:
+
+-> IN Python, Multiple Input can be defined separated by commas(for ex- x,y = input()) 
+   but in online platform while testing input separated by spaces & int(input()) is not able to read the input properly & shows err NZEC.
+ 
+-> If u ran out of stack memory .
+-> Input & Output are not exactly same as test cases
+-> This type of err also occur cause of code in which basic mistake like dividing by 0.
+
+
