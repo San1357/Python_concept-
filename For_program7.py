@@ -17,3 +17,19 @@ for i in range(0,n):
     newList.append(ele*ele)
 print(list1)
 print(newList)
+
+
+#OUTPUT:
+
+enter the amount of number you want to put in list:5
+1
+3
+5
+4
+8
+[1, 3, 5, 4, 8]
+[1, 9, 25, 16, 64]
+
+
+
+
